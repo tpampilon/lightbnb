@@ -163,7 +163,7 @@ exports.getAllProperties = getAllProperties;
  */
 const addProperty = function(property) {
   return Promise.resolve(pool.query(`
-    INSERT INTO users (
+    INSERT INTO properties (
       owner_id,
       title,
       description,
